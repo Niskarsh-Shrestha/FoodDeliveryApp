@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:food_delivery_app/widgets/appbarText.dart';
+import 'package:food_delivery_app/widgets/AppBarText.dart';
 import 'package:food_delivery_app/widgets/loginButtonWidget.dart';
 import 'package:food_delivery_app/widgets/Loginbox.dart';
 
@@ -15,7 +15,9 @@ class ForgotPassView extends StatelessWidget {
         child: Scaffold(
       appBar: AppBar(
         titleSpacing: 85,
-        title: const AppbarText(text: "Forget Password"),
+        title: const AppBarText(
+          text: 'Forget Password',
+        ),
       ),
       body: Center(
         child: Padding(

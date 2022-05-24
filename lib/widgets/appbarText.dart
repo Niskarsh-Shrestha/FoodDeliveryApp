@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 import '../util/colors.dart';
 
-class AppbarText extends StatelessWidget {
+class AppBarText extends StatelessWidget {
   final String text;
-  const AppbarText({
+  const AppBarText({
     required this.text,
     Key? key,
   }) : super(key: key);

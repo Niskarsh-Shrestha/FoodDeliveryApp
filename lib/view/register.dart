@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:food_delivery_app/util/colors.dart';
 import 'package:food_delivery_app/view/login.dart';
 import 'package:food_delivery_app/widgets/PasswordBox.dart';
-import 'package:food_delivery_app/widgets/appbarText.dart';
+import 'package:food_delivery_app/widgets/AppBarText.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 
@@ -17,6 +17,14 @@ class RegisterView extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
+      appBar: AppBar(
+        title: Center(
+          child: const AppBarText(
+            text: 'Register Now',
+          ),
+        ),
+        automaticallyImplyLeading: false,
+      ),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(8.0),
@@ -24,11 +32,9 @@ class RegisterView extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                const AppbarText(text: "Register Now"),
-
-                const SizedBox(
-                  height: 160,
-                ),
+                // const SizedBox(
+                //   height: 160,
+                // ),
 //LOTTIE FILES
                 Lottie.network(
                     "https://assets3.lottiefiles.com/packages/lf20_vkqybeu5/data.json",
