@@ -51,6 +51,9 @@ class LoginView extends StatelessWidget {
                     ),
                   ],
                 ),
+               const SizedBox(
+                  height: 160,
+                ),
 //TOP BAR ENDS
                 //LOTTIE FILES
                 Lottie.network(

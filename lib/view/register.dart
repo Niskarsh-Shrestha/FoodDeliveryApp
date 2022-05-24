@@ -25,6 +25,10 @@ class RegisterView extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 const AppbarText(text: "Register Now"),
+
+                const SizedBox(
+                  height: 160,
+                ),
 //LOTTIE FILES
                 Lottie.network(
                     "https://assets3.lottiefiles.com/packages/lf20_vkqybeu5/data.json",
